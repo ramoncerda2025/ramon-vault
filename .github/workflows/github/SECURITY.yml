@@ -1,0 +1,31 @@
+# SECURITY.yml – Políticas de seguridad del vault personal
+# Ramón Cerda Quiroz – 2025-2030
+
+# Contacto para reportar vulnerabilidades (solo yo)
+contact:
+  - mailto:ggmon.oficial@gmail.com
+  - "Solo contacto directo, nada de issues públicos"
+
+# Este repo es PRIVADO y contiene información sensible
+policy: |
+  Este repositorio es estrictamente privado.
+  Contiene enlaces de recuperación, políticas personales y backups cifrados.
+  Cualquier intento de acceso no autorizado será reportado.
+
+# Versionado de políticas
+versions:
+  - date: "2025-11-30"
+    change: "Creación inicial del vault"
+    author: "Ramón Cerda Quiroz"
+
+# Reglas de acceso
+access:
+  - "Solo el propietario (ggmon) tiene acceso"
+  - "2FA obligatorio en la cuenta de GitHub"
+  - "Revisión de dependencias y tokens cada 90 días"
+
+# Encriptación recomendada para archivos sensibles
+encryption:
+  - "Archivos con datos críticos usar GPG o age"
+  - "Clave pública del propietario disponible en keys.gnupg.net”
+  
